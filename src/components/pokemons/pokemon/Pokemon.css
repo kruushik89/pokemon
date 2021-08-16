@@ -1,0 +1,23 @@
+.card {
+    min-width: 200px;
+    /*flex-basis: 30%;*/
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    background-color: var(--white);
+    padding: 15px;
+    transition: box-shadow .3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card_image img {
+    height: 75px;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.card h4::first-letter {
+    text-transform: uppercase;
+}

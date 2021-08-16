@@ -1,0 +1,14 @@
+.top-bar {
+    height: 70px;
+    background-color: #EF5350;
+}
+
+.top-bar_logo img {
+    width: 150px;
+}
+
+.top-bar_grid {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
